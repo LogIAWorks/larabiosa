@@ -1569,3 +1569,13 @@ html.intro-on .hero video{filter:none;transition:none}
 /* horarios: el tramo «20:00 – 23:30» no se parte en dos líneas */
 .foot-facts dd{text-wrap:pretty}
 .foot-facts .hr{white-space:nowrap}
+
+/* Bloques anclados (llevar, The Table, croqueta) siempre a pantalla completa: en móvil el .stage{88svh} dejaba una
+   franja clara debajo mientras estaban fijos, y con la barra de Safari recogida (svh < pantalla visible) crecía.
+   lvh cubre la pantalla grande; el velo sube el texto lo que tapa la barra cuando está desplegada. */
+.stage.stage--under,.bleed.bleed--under{height:100vh;height:100lvh}
+.stage--under .stage-veil{padding-bottom:calc(100lvh - 100svh)}
+/* Arroces para llevar: título entero en blanco y sin antetítulo (petición del cliente, 2026-09-17) */
+.llevar-e .stage-body h2{margin-top:0}
+.llevar-e .stage-body h2 em{color:var(--bone)}
+.llevar-e .stage-body h2 .rl.in{overflow:visible}   /* la sombra del texto no se recorta en un rectángulo al terminar la entrada */
