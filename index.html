@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La Rabiosa · Restaurante en Alcázar de San Juan</title>
+<meta name="description" content="Cocina manchega de mercado con técnica contemporánea. Chef Juan Delgado. Recomendado por la Guía Repsol 2026 y Top 1 de Alcázar de San Juan según la Guía Macarfi. Arroces al momento y menús degustación.">
+<meta name="theme-color" content="#14100D">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="La Rabiosa · Restaurante en Alcázar de San Juan">
+<meta property="og:description" content="Cocina manchega de mercado con técnica contemporánea. Chef Juan Delgado.">
+<meta property="og:image" content="assets/img/poster-hero.jpg?v=20260908">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/questrial-latin.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/jost-latin-var.woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css?v=20260917d">
+<link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/logo/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+
+<script>
+/* Intro: el logotipo aparece centrado sobre tinta y viaja hasta su sitio en el hero. En cada carga de la portada, nunca con movimiento reducido.
+   Se decide aquí, antes de pintar, para que el hero no parpadee. */
+(function(){try{
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce){ document.documentElement.classList.add('intro-on'); }   /* en cada carga de la portada */
+}catch(e){}})();
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"Restaurant",
+  "name":"Restaurante La Rabiosa",
+  "image":"assets/img/poster-hero.jpg?v=20260908",
+  "servesCuisine":["Manchega","Española contemporánea","Arroces"],
+  "priceRange":"€€€","telephone":"+34633417545",
+  "address":{"@type":"PostalAddress","streetAddress":"Calle Emilia Pardo Bazán, 2","addressLocality":"Alcázar de San Juan","addressRegion":"Ciudad Real","postalCode":"13600","addressCountry":"ES"},
+  "geo":{"@type":"GeoCoordinates","latitude":39.39271,"longitude":-3.22247},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Thursday","Friday","Saturday","Sunday"],"opens":"13:00","closes":"16:30"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"20:00","closes":"23:30"}
+  ],
+  "acceptsReservations":"True"
+}
+</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="lr-logo" viewBox="-41.87 -75.00 423.95 76.37"><path pathLength="1000" d="M-41.87-35.91L-41.87-71.83L-38.25-71.83L-38.25-39.38L-24.46-39.38L-24.46-35.91L-41.87-35.91ZM3.76-62.48L7.13-62.48L7.13-35.91L3.76-35.91L3.76-40.48Q1.61-37.87-1.06-36.55Q-3.73-35.23-6.91-35.23L-6.91-35.23Q-12.55-35.23-16.54-39.32Q-20.53-43.41-20.53-49.27L-20.53-49.27Q-20.53-55.00-16.50-59.08Q-12.47-63.16-6.81-63.16L-6.81-63.16Q-3.54-63.16-0.89-61.77Q1.76-60.38 3.76-57.59L3.76-57.59L3.76-62.48ZM-6.54-59.86L-6.54-59.86Q-9.40-59.86-11.81-58.46Q-14.23-57.06-15.66-54.52Q-17.09-51.98-17.09-49.15L-17.09-49.15Q-17.09-46.34-15.65-43.77Q-14.21-41.21-11.78-39.78Q-9.35-38.35-6.57-38.35L-6.57-38.35Q-3.76-38.35-1.24-39.77Q1.27-41.19 2.63-43.60Q3.98-46.02 3.98-49.05L3.98-49.05Q3.98-53.66 0.94-56.76Q-2.10-59.86-6.54-59.86ZM9.13 0L9.13-71.83L23.44-71.83Q35.40-71.83 39.65-70.85L39.65-70.85Q46.04-69.38 50.05-64.58Q54.05-59.77 54.05-52.73L54.05-52.73Q54.05-46.88 51.29-42.43Q48.54-37.99 43.41-35.72Q38.28-33.45 29.25-33.40L29.25-33.40L55.08 0L46.19 0L20.41-33.40L16.31-33.40L16.31 0L9.13 0ZM28.96-64.79L16.31-64.79L16.31-40.38L28.66-40.28Q35.84-40.28 39.28-41.65Q42.72-43.02 44.65-46.02Q46.58-49.02 46.58-52.73L46.58-52.73Q46.58-56.35 44.63-59.30Q42.68-62.26 39.50-63.53Q36.33-64.79 28.96-64.79L28.96-64.79ZM114.50-53.13L121.24-53.13L121.24 0L114.50 0L114.50-9.13Q110.21-3.91 104.86-1.27Q99.51 1.37 93.16 1.37L93.16 1.37Q81.88 1.37 73.90-6.81Q65.92-14.99 65.92-26.71L65.92-26.71Q65.92-38.18 73.97-46.34Q82.03-54.49 93.36-54.49L93.36-54.49Q99.90-54.49 105.20-51.71Q110.50-48.93 114.50-43.36L114.50-43.36L114.50-53.13ZM93.90-47.90L93.90-47.90Q88.18-47.90 83.35-45.09Q78.52-42.29 75.66-37.21Q72.80-32.13 72.80-26.46L72.80-26.46Q72.80-20.85 75.68-15.72Q78.56-10.60 83.42-7.74Q88.28-4.88 93.85-4.88L93.85-4.88Q99.46-4.88 104.49-7.71Q109.52-10.55 112.23-15.38Q114.94-20.21 114.94-26.27L114.94-26.27Q114.94-35.50 108.86-41.70Q102.78-47.90 93.90-47.90ZM143.85 0L137.06 0L137.06-73.63L143.85-73.63L143.85-43.99Q148.14-49.27 153.47-51.88Q158.79-54.49 165.14-54.49L165.14-54.49Q176.42-54.49 184.40-46.31Q192.38-38.13 192.38-26.46L192.38-26.46Q192.38-14.94 184.33-6.79Q176.27 1.37 164.94 1.37L164.94 1.37Q158.45 1.37 153.17-1.42Q147.90-4.20 143.85-9.77L143.85-9.77L143.85 0ZM164.40-5.22L164.40-5.22Q170.12-5.22 174.95-8.03Q179.79-10.84 182.64-15.92Q185.50-21.00 185.50-26.66L185.50-26.66Q185.50-32.32 182.62-37.45Q179.74-42.58 174.88-45.43Q170.02-48.29 164.50-48.29L164.50-48.29Q158.89-48.29 153.83-45.43Q148.78-42.58 146.07-37.74Q143.36-32.91 143.36-26.86L143.36-26.86Q143.36-17.63 149.44-11.43Q155.52-5.22 164.40-5.22ZM207.23-75L207.23-75Q209.57-75 211.23-73.34Q212.89-71.68 212.89-69.34L212.89-69.34Q212.89-67.04 211.23-65.38Q209.57-63.72 207.23-63.72L207.23-63.72Q204.93-63.72 203.27-65.38Q201.61-67.04 201.61-69.34L201.61-69.34Q201.61-71.68 203.27-73.34Q204.93-75 207.23-75ZM203.81 0L203.81-53.13L210.69-53.13L210.69 0L203.81 0ZM250-54.49L250-54.49Q262.26-54.49 270.31-45.61L270.31-45.61Q277.64-37.50 277.64-26.42L277.64-26.42Q277.64-15.28 269.90-6.96Q262.16 1.37 250 1.37L250 1.37Q237.79 1.37 230.05-6.96Q222.31-15.28 222.31-26.42L222.31-26.42Q222.31-37.45 229.64-45.56L229.64-45.56Q237.70-54.49 250-54.49ZM250-47.80L250-47.80Q241.50-47.80 235.40-41.50Q229.30-35.21 229.30-26.27L229.30-26.27Q229.30-20.51 232.08-15.53Q234.86-10.55 239.60-7.84Q244.34-5.13 250-5.13L250-5.13Q255.66-5.13 260.40-7.84Q265.14-10.55 267.92-15.53Q270.70-20.51 270.70-26.27L270.70-26.27Q270.70-35.21 264.58-41.50Q258.45-47.80 250-47.80ZM317.04-47.31L317.04-47.31L312.65-42.77Q307.18-48.10 301.95-48.10L301.95-48.10Q298.63-48.10 296.26-45.90Q293.90-43.70 293.90-40.77L293.90-40.77Q293.90-38.18 295.85-35.84L295.85-35.84Q297.80-33.45 304.05-30.22L304.05-30.22Q311.67-26.27 314.40-22.61L314.40-22.61Q317.09-18.90 317.09-14.26L317.09-14.26Q317.09-7.71 312.50-3.17Q307.91 1.37 301.03 1.37L301.03 1.37Q296.44 1.37 292.26-0.63Q288.09-2.64 285.35-6.15L285.35-6.15L289.65-11.04Q294.87-5.13 300.73-5.13L300.73-5.13Q304.83-5.13 307.71-7.76Q310.60-10.40 310.60-13.96L310.60-13.96Q310.60-16.89 308.69-19.19L308.69-19.19Q306.79-21.44 300.10-24.85L300.10-24.85Q292.92-28.56 290.33-32.18L290.33-32.18Q287.74-35.79 287.74-40.43L287.74-40.43Q287.74-46.48 291.87-50.49Q296.00-54.49 302.29-54.49L302.29-54.49Q309.62-54.49 317.04-47.31ZM375.34-53.13L382.08-53.13L382.08 0L375.34 0L375.34-9.13Q371.04-3.91 365.70-1.27Q360.35 1.37 354.00 1.37L354.00 1.37Q342.72 1.37 334.74-6.81Q326.76-14.99 326.76-26.71L326.76-26.71Q326.76-38.18 334.81-46.34Q342.87-54.49 354.20-54.49L354.20-54.49Q360.74-54.49 366.04-51.71Q371.34-48.93 375.34-43.36L375.34-43.36L375.34-53.13ZM354.74-47.90L354.74-47.90Q349.02-47.90 344.19-45.09Q339.36-42.29 336.50-37.21Q333.64-32.13 333.64-26.46L333.64-26.46Q333.64-20.85 336.52-15.72Q339.40-10.60 344.26-7.74Q349.12-4.88 354.69-4.88L354.69-4.88Q360.30-4.88 365.33-7.71Q370.36-10.55 373.07-15.38Q375.78-20.21 375.78-26.27L375.78-26.27Q375.78-35.50 369.70-41.70Q363.62-47.90 354.74-47.90Z"/></symbol></svg>
+
+<div class="intro" id="intro" aria-hidden="true"><div class="intro-scene"><svg class="brand-mark intro-mark" id="introMark" viewBox="0 0 423.95 76.37" aria-hidden="true" focusable="false"><use href="#lr-logo"/></svg><div class="intro-field"></div></div></div>
+
+<nav class="nav nav--brand-late">
+  <a href="#top" class="brand" aria-label="La Rabiosa, inicio"><svg class="brand-mark" viewBox="0 0 423.95 76.37" aria-hidden="true" focusable="false"><use href="#lr-logo"/></svg></a>
+  <ul class="nav-links">
+    <li><a href="carta.html">Carta</a></li>
+    <li><a href="the-table.html">The Table</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+    <li class="nav-mobile-only"><a href="reservar.html">Reservar</a></li>
+  </ul>
+  <a href="reservar.html" class="btn btn--nav">Reservar</a>
+  <button class="burger" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- ═══════════ HERO — sin tocar ═══════════ -->
+<header class="hero" id="top" data-nav-hold>
+  <!-- Vídeo a sangre. Dos versiones: 1620×2880 reescalada con lanczos + nitidez para escritorio (mínimo zoom posible) y 1080×1920 para móvil. La elige el script de abajo antes de que empiece la descarga. -->
+  <video autoplay muted loop playsinline poster="assets/img/poster-hero.jpg?v=20260908d" aria-hidden="true" data-src="assets/video/hero-720.mp4?v=20260915j" data-src-hd="assets/video/hero-wide.mp4?v=20260915j"></video>
+  <script>(function(){var v=document.currentScript.previousElementSibling;var hd=window.innerWidth>=961;v.src=hd?v.dataset.srcHd:v.dataset.src;})();</script>
+  <div class="hero-inner">
+    <div class="hero-grid">
+      <h1 class="hero-logo"><span class="sr">La Rabiosa</span><svg class="brand-mark" viewBox="0 0 423.95 76.37" aria-hidden="true" focusable="false"><use href="#lr-logo"/></svg></h1>
+      <div class="hero-cta">
+        <a href="reservar.html" class="btn btn--clay">Reservar mesa</a>
+        <a href="carta.html" class="btn btn--ghost-light">Ver la carta</a>
+      </div>
+      <div class="hero-meta">
+        <span>Guía Repsol 2026</span>
+        <span>Top 1 Alcázar · Guía Macarfi</span>
+        <span>Tripadvisor Travellers' Choice</span>
+        <span>Raíz Culinaria CLM</span>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint" aria-hidden="true">Desliza</div>
+</header>
+
+<!-- ═══════════ 02+03 · PROFUNDIDAD ═══════════
+     El vídeo queda fijo al fondo. «La casa» pasa por
+     encima como panel opaco; al irse, descubre el vídeo,
+     que entra en 3D. Después el carrusel sube delante.
+     ═══════════════════════════════════════════════ -->
+<div class="depth">
+
+  <div class="depth-bg" aria-hidden="true">
+    <div class="depth-bg-in">
+      <video muted loop playsinline preload="none" poster="assets/img/poster-arroces.jpg?v=20260908e" data-src="assets/video/arroces-720.mp4?v=20260915j" data-src-hd="assets/video/arroces-wide.mp4?v=20260915j"></video>
+      <div class="depth-veil"></div>
+    </div>
+  </div>
+
+  <!-- panel opaco por encima del vídeo -->
+  <section class="sec depth-panel" id="casa">
+    <div class="wrap editorial editorial--foto">
+      <div>
+        <h2>
+          <span class="rl"><span><em>Cocina manchega</em></span></span>
+          <span class="rl"><span><em>contemporánea.</em></span></span>
+        </h2>
+        <div class="body">
+          <p>Pocas mesas y una cocina que cambia sola. Nació en Consuegra en 2018 y en diciembre de 2020 se instaló en Alcázar: lo que se come cada semana depende de lo que llega esa mañana, no de una carta impresa hace un año.</p>
+          <p>La base es la despensa manchega —cordero, queso, azafrán, caza, el ajo de Las Pedroñeras— y encima va técnica: cocciones largas a baja temperatura, fondos reducidos y un punto de fusión que aparece sin pedir permiso.</p>
+        </div>
+        <div style="margin-top:2.2rem"><a href="carta.html" class="btn btn--ink">Ver la carta</a></div>
+      </div>
+
+      <div class="cluster cluster--duo">
+        <figure class="mask mask--wait">
+          <img src="assets/w/sala-2025-1-sm.webp" srcset="assets/w/sala-2025-1-sm.webp 800w, assets/w/sala-2025-1.webp 1600w" sizes="(max-width:620px) 90vw, 30vw" alt="El comedor de La Rabiosa, con la pared de ladrillo y las espigas" style="object-position:50% 70%" loading="lazy" width="800" height="1200">
+        </figure>
+        <figure class="mask mask--wait">
+          <img src="assets/w/mesa-rayas-sm.webp?v=20260917a" srcset="assets/w/mesa-rayas-sm.webp?v=20260917a 440w, assets/w/mesa-rayas.webp?v=20260917a 880w" sizes="(max-width:620px) 90vw, 30vw" alt="Mesa junto al banco de rayas, con la servilleta de la casa" loading="lazy" width="440" height="587">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SELLOS · placas de las guías ═══
+       Recortadas del material propio del restaurante.
+       Ver LEEME.md — Raíz Culinaria va compuesta.
+       ═══════════════════════════════════════ -->
+  <section class="sellos" data-arrive aria-label="Reconocimientos">
+    <div class="sellos-in">
+
+      <div class="sello">
+        <img src="assets/sellos/repsol.webp?v=1787742518" alt="Restaurante Recomendado por la Guía Repsol 2026" loading="lazy" width="500" height="230">
+      </div>
+
+      <div class="sello sello--medio">
+        <img src="assets/sellos/macarfi.webp?v=1787743295" alt="Guía Macarfi 2026" loading="lazy" width="420" height="188">
+      </div>
+
+      <div class="sello sello--grande">
+        <img src="assets/sellos/tripadvisor.webp?v=1787742518" alt="Tripadvisor Travellers' Choice Awards 2025" loading="lazy" width="460" height="550">
+      </div>
+
+      <div class="sello sello--apaisada">
+        <img src="assets/sellos/raiz.svg?v=1787742518" alt="Raíz Culinaria · Castilla-La Mancha" loading="lazy" width="626" height="133">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ RESEÑAS · carrusel infinito ═══
+       Textos reales de Tripadvisor. Ver LEEME.md
+       ═══════════════════════════════════════ -->
+  <section class="stack" id="resenas" aria-label="Reseñas de clientes">
+
+    <div class="stack-head">
+      <h2><em>Los que ya han venido</em></h2>
+      <p class="stack-score">
+        <span><b>4,7</b> Google · 657 reseñas</span>
+        <span><b>4,8</b> Tripadvisor · 125 reseñas</span>
+      </p>
+    </div>
+
+    <div class="rvmq-wrap">
+      <div class="rvmq">
+        <div class="rvrow rvrow--a">
+          <article class="rv" style="--r:-1.4deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un restaurante que roza la perfección</h3>
+            <p>El trato fue impecable desde el primer momento, tanto al reservar por teléfono como durante la comida.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">JR</span>
+              <span class="rv-who"><b>José R.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.1deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Cena top</h3>
+            <p>Experiencia inolvidable. Trato del personal de diez.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#A8862A" aria-hidden="true">GH</span>
+              <span class="rv-who"><b>Guillermo H.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-0.8deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Sitio que no falla</h3>
+            <p>El arroz, espectacular. Y el corte de carne nos supo a gloria.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#7A6E62" aria-hidden="true">MC</span>
+              <span class="rv-who"><b>M. A. M. Cuartero</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.5deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Menú exquisito, y adaptado sin gluten</h3>
+            <p>Fue una experiencia gastronómica, sorprendente y especial.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#24503C" aria-hidden="true">CS</span>
+              <span class="rv-who"><b>Cristina S.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.2deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un acierto seguro</h3>
+            <p>Cocina tradicional con un toque moderno, muy bien conseguido.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#2A2320" aria-hidden="true">YM</span>
+              <span class="rv-who"><b>Yolanda M.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:0.9deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Una experiencia maravillosa</h3>
+            <p>La acogida al llegar fue muy buena y cercana, y siguió así todo el rato.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">FG</span>
+              <span class="rv-who"><b>Fiona G.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.6deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>No te puedes perder esta experiencia</h3>
+            <p>Qué suerte tiene Alcázar de contar con este restaurante.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#4E8078" aria-hidden="true">PV</span>
+              <span class="rv-who"><b>Patricia V.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.1deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un restaurante que roza la perfección</h3>
+            <p>El trato fue impecable desde el primer momento, tanto al reservar por teléfono como durante la comida.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">JR</span>
+              <span class="rv-who"><b>José R.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-0.8deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Cena top</h3>
+            <p>Experiencia inolvidable. Trato del personal de diez.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#A8862A" aria-hidden="true">GH</span>
+              <span class="rv-who"><b>Guillermo H.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.5deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Sitio que no falla</h3>
+            <p>El arroz, espectacular. Y el corte de carne nos supo a gloria.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#7A6E62" aria-hidden="true">MC</span>
+              <span class="rv-who"><b>M. A. M. Cuartero</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.2deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Menú exquisito, y adaptado sin gluten</h3>
+            <p>Fue una experiencia gastronómica, sorprendente y especial.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#24503C" aria-hidden="true">CS</span>
+              <span class="rv-who"><b>Cristina S.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:0.9deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un acierto seguro</h3>
+            <p>Cocina tradicional con un toque moderno, muy bien conseguido.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#2A2320" aria-hidden="true">YM</span>
+              <span class="rv-who"><b>Yolanda M.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.6deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Una experiencia maravillosa</h3>
+            <p>La acogida al llegar fue muy buena y cercana, y siguió así todo el rato.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">FG</span>
+              <span class="rv-who"><b>Fiona G.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.4deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>No te puedes perder esta experiencia</h3>
+            <p>Qué suerte tiene Alcázar de contar con este restaurante.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#4E8078" aria-hidden="true">PV</span>
+              <span class="rv-who"><b>Patricia V.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+        </div>
+        <div class="rvrow rvrow--b">
+          <article class="rv" style="--r:1.5deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Menú exquisito, y adaptado sin gluten</h3>
+            <p>Fue una experiencia gastronómica, sorprendente y especial.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#24503C" aria-hidden="true">CS</span>
+              <span class="rv-who"><b>Cristina S.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.2deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un acierto seguro</h3>
+            <p>Cocina tradicional con un toque moderno, muy bien conseguido.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#2A2320" aria-hidden="true">YM</span>
+              <span class="rv-who"><b>Yolanda M.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:0.9deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Una experiencia maravillosa</h3>
+            <p>La acogida al llegar fue muy buena y cercana, y siguió así todo el rato.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">FG</span>
+              <span class="rv-who"><b>Fiona G.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.6deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>No te puedes perder esta experiencia</h3>
+            <p>Qué suerte tiene Alcázar de contar con este restaurante.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#4E8078" aria-hidden="true">PV</span>
+              <span class="rv-who"><b>Patricia V.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.4deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un restaurante que roza la perfección</h3>
+            <p>El trato fue impecable desde el primer momento, tanto al reservar por teléfono como durante la comida.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">JR</span>
+              <span class="rv-who"><b>José R.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.1deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Cena top</h3>
+            <p>Experiencia inolvidable. Trato del personal de diez.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#A8862A" aria-hidden="true">GH</span>
+              <span class="rv-who"><b>Guillermo H.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-0.8deg">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Sitio que no falla</h3>
+            <p>El arroz, espectacular. Y el corte de carne nos supo a gloria.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#7A6E62" aria-hidden="true">MC</span>
+              <span class="rv-who"><b>M. A. M. Cuartero</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.2deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Menú exquisito, y adaptado sin gluten</h3>
+            <p>Fue una experiencia gastronómica, sorprendente y especial.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#24503C" aria-hidden="true">CS</span>
+              <span class="rv-who"><b>Cristina S.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:0.9deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un acierto seguro</h3>
+            <p>Cocina tradicional con un toque moderno, muy bien conseguido.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#2A2320" aria-hidden="true">YM</span>
+              <span class="rv-who"><b>Yolanda M.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.6deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Una experiencia maravillosa</h3>
+            <p>La acogida al llegar fue muy buena y cercana, y siguió así todo el rato.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">FG</span>
+              <span class="rv-who"><b>Fiona G.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-1.4deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>No te puedes perder esta experiencia</h3>
+            <p>Qué suerte tiene Alcázar de contar con este restaurante.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#4E8078" aria-hidden="true">PV</span>
+              <span class="rv-who"><b>Patricia V.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.1deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Un restaurante que roza la perfección</h3>
+            <p>El trato fue impecable desde el primer momento, tanto al reservar por teléfono como durante la comida.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#B4552C" aria-hidden="true">JR</span>
+              <span class="rv-who"><b>José R.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:-0.8deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Cena top</h3>
+            <p>Experiencia inolvidable. Trato del personal de diez.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#A8862A" aria-hidden="true">GH</span>
+              <span class="rv-who"><b>Guillermo H.</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+          <article class="rv" style="--r:1.5deg" aria-hidden="true">
+            <div class="stars" aria-label="5 sobre 5">★★★★★</div>
+            <h3>Sitio que no falla</h3>
+            <p>El arroz, espectacular. Y el corte de carne nos supo a gloria.</p>
+            <footer>
+              <span class="rv-ini" style="--av:#7A6E62" aria-hidden="true">MC</span>
+              <span class="rv-who"><b>M. A. M. Cuartero</b><span class="src">Tripadvisor</span></span>
+            </footer>
+          </article>
+        </div>
+              </div>
+    </div>
+
+  </section>
+
+  <!-- zona del vídeo: titular que se va y carrusel que sube -->
+  <section class="depth-rice" id="arroces">
+    <div class="depth-pin">
+
+      <div class="depth-title">
+        <span class="depth-sub">La especialidad de la casa</span>
+        <h2><span class="rl"><span>El arroz <em>de temporada</em></span></span></h2>
+        <p class="depth-lede">No hay una lista de arroces: hay uno cada vez, hecho con lo que ha llegado esa mañana. Nunca es el mismo y no se puede pedir «el de la otra vez». Estos son algunos de los que han salido de la paella.</p>
+      </div>
+
+      <!-- flecha que sube y baja: invita a seguir bajando hasta que aparece el carrusel -->
+      <div class="depth-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></svg></div>
+
+      <div class="depth-rail">
+        <div class="depth-rail-head">
+          <b>Algunos que han salido</b>
+          <div class="rail-nav">
+            <button type="button" class="rail-btn" data-rail="prev" aria-label="Arroz anterior"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+            <button type="button" class="rail-btn" data-rail="next" aria-label="Arroz siguiente"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="hscroll">
+          <figure class="hcard"><img src="assets/w/arroz-carne-sm.webp" alt="Arroz de chuleta madurada" loading="lazy" width="400" height="533"><figcaption><b>De chuleta madurada</b></figcaption></figure>
+          <figure class="hcard"><img src="assets/w/arroz-secreto-sm.webp" alt="Arroz de pato con tomillo" loading="lazy" width="400" height="533"><figcaption><b>De pato</b></figcaption></figure>
+          <figure class="hcard"><img src="assets/w/arroz-matanza-sm.webp" alt="Arroz de la huerta" loading="lazy" width="400" height="533"><figcaption><b>De la huerta</b></figcaption></figure>
+          <figure class="hcard"><img src="assets/w/arroz-huevo-sm.webp" alt="Arroz con huevo de corral" loading="lazy" width="400" height="533"><figcaption><b>Con huevo de corral</b></figcaption></figure>
+          <figure class="hcard"><img src="assets/w/arroz-chipiron-sm.webp" alt="Arroz negro con chipirones" loading="lazy" width="400" height="533"><figcaption><b>De chipirón</b></figcaption></figure>
+        </div>
+        <div class="rail-line" aria-hidden="true"><i></i></div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ═══════════ 06b · ARROCES PARA LLEVAR (variante B: vídeo de fondo mudo) ═══════════ -->
+<section class="stage stage--under llevar-e" id="llevar" data-nav-dark>
+  <img class="stage-still" src="assets/img/poster-llevar-bg.jpg?v=20260915r" alt="" aria-hidden="true" loading="lazy" width="1080" height="620">
+  <video muted loop playsinline preload="none" poster="assets/img/poster-llevar-bg.jpg?v=20260915r" data-lazy-video aria-hidden="true" data-src="assets/video/llevar-bg-720.mp4?v=20260915r" data-src-hd="assets/video/llevar-bg-wide.mp4?v=20260915r"></video>
+  <div class="stage-veil llevar-veil2">
+    <div class="stage-body">
+      <span class="eyebrow eyebrow--light">Para llevar</span>
+      <h2>
+        <span class="rl"><span>El arroz,</span></span>
+        <span class="rl"><span><em>también en casa</em></span></span>
+      </h2>
+      <div class="llevar-facts">
+        <div><b>En su paellera</b>Viaja en ella y no hace falta devolverla.</div>
+        <div><b>De temporada</b>Los arroces cambian con el mercado.</div>
+        <div><b>Por encargo</b>Por teléfono. Mínimo dos personas.</div>
+      </div>
+      <div class="llevar-cta">
+        <a href="tel:+34633417545" class="btn btn--clay">Encargar · 633 41 75 45</a>
+        <button type="button" class="btn btn--ghost-light" id="llevarVer">Juan lo explica · 30 s</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 07 · EL CHEF ═══════════ -->
+<section class="sec sec--over" id="chef">
+  <div class="wrap editorial editorial--foto-izq">
+    <div class="cluster cluster--duo">
+      <figure class="mask mask--wait">
+        <img src="assets/w/juan-paella-sm.webp" srcset="assets/w/juan-paella-sm.webp 800w, assets/w/juan-paella.webp 1600w" sizes="(max-width:620px) 90vw, 30vw" alt="Juan Delgado con la paella recién hecha" style="object-position:50% 90%" loading="lazy" width="800" height="1200">
+        <figcaption>Juan Delgado</figcaption>
+      </figure>
+      <figure class="mask mask--wait">
+        <img src="assets/w/chef-emplata.webp" alt="Terminando un plato en el pase" loading="lazy" width="400" height="500">
+        <figcaption>En el pase</figcaption>
+      </figure>
+    </div>
+    <div>
+      <span class="eyebrow">El chef</span>
+      <h2>
+        <span class="rl"><span>Juan</span></span>
+        <span class="rl"><span><em>Delgado</em></span></span>
+      </h2>
+      <div class="body">
+        <p>Natural de Consuegra, se formó y trabajó años en cocinas de Madrid antes de volver a La Mancha a montar casa propia.</p>
+        <p>Su cocina no le cambia el nombre a las cosas: el cordero sigue siendo cordero y el torrezno sigue siendo torrezno. Lo que cambia es la técnica que los atraviesa.</p>
+        <p>Forma parte de <b style="font-weight:500">Raíz Culinaria</b>, el proyecto de Castilla-La Mancha que reúne a los cocineros que trabajan la identidad gastronómica de la región.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 07b · LA SALA · ÁLEX ═══════════ -->
+<section class="sec sec--over" id="sala">
+  <div class="wrap editorial editorial--foto">
+    <div>
+      <span class="eyebrow">La sala</span>
+      <h2>
+        <span class="rl"><span>Álex</span></span>
+        <span class="rl"><span><em>Martínez</em></span></span>
+      </h2>
+      <div class="body">
+        <p>La Rabiosa son dos. Juan en la cocina y Álex en la sala: el que te recibe, el que te cuenta el plato y el que decide lo que va en la copa.</p>
+        <p>Cuarenta plazas y una manera de hacer: se pregunta, se escucha y se recomienda. La bodega, pensada para esta cocina, la abre y la sirve él.</p>
+        <p>Si llamas para reservar, pregunta por Juan o por Álex. Contestan ellos.</p>
+      </div>
+    </div>
+    <div class="cluster cluster--duo">
+      <figure class="mask mask--wait">
+        <img src="assets/w/alex-arroz-sm.webp" srcset="assets/w/alex-arroz-sm.webp 534w, assets/w/alex-arroz.webp 1066w" sizes="(max-width:620px) 90vw, 30vw" alt="Álex Martínez llevando el arroz a la mesa" loading="lazy" width="534" height="800">
+        <figcaption>El arroz llega a la mesa</figcaption>
+      </figure>
+      <figure class="mask mask--wait">
+        <img src="assets/w/alex-risa-sm.webp" srcset="assets/w/alex-risa-sm.webp 534w, assets/w/alex-risa.webp 1066w" sizes="(max-width:620px) 90vw, 30vw" alt="Álex Martínez riendo durante el servicio" loading="lazy" width="534" height="800" style="object-position:50% 20%">
+        <figcaption>Álex Martínez</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 06 · THE TABLE ═══════════ -->
+<section class="stage stage--under" id="the-table">
+  <img class="stage-still" src="assets/w/tt-stage-still.webp" alt="" aria-hidden="true" loading="lazy">
+  <video muted loop playsinline preload="none" poster="assets/img/poster-the-table.jpg?v=20260908e" data-lazy-video aria-hidden="true" data-src="assets/video/the-table-bw-720.mp4?v=20260915j" data-src-hd="assets/video/the-table-wide.mp4?v=20260915j"></video>
+  <div class="stage-veil">
+    <div class="stage-body">
+      <h2>
+        <span class="rl"><span>The Table</span></span>
+      </h2>
+      <p>Una mesa larga y un producto de la zona como protagonista. Quien lo hace viene a presentarlo, y la cocina lo convierte en varios platos para catarlo juntos. Cada edición es única.</p>
+      <div style="margin-top:2rem"><a href="the-table.html" class="btn btn--ghost-light">Ver el formato</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 08 · ÍNDICE ═══════════ -->
+<section class="sec--tight" style="background:var(--bone-2)">
+  <div class="wrap">
+    <span class="eyebrow">Continúa en</span>
+    <nav class="bigindex" style="margin-top:1.5rem">
+      <a href="carta.html"><span class="n">01</span><span class="t">Los menús<small>Cuatro fórmulas y lo que sube a la mesa</small></span><span class="go">→</span></a>
+      <a href="the-table.html"><span class="n">02</span><span class="t">The Table<small>Un productor invitado y su producto convertido en platos</small></span><span class="go">→</span></a>
+      <a href="galeria.html"><span class="n">03</span><span class="t">Galería<small>Más de cien piezas de plato, sala y cocina</small></span><span class="go">→</span></a>
+      <a href="reservar.html"><span class="n">04</span><span class="t">Reservar<small>Reserva online al momento. Miércoles cerrado</small></span><span class="go">→</span></a>
+    </nav>
+  </div>
+</section>
+
+<!-- ═══════════ CROQUETA · vídeo a sangre ═══════════ -->
+<div class="bleed bleed--under">
+  <img class="bleed-still" src="assets/w/bleed-still.webp" alt="" aria-hidden="true" loading="lazy">
+  <video muted loop playsinline preload="none" poster="assets/img/poster-croqueta-corte.jpg?v=20260908e" data-lazy-video aria-hidden="true" data-src="assets/video/croqueta-corte-720.mp4?v=20260915j" data-src-hd="assets/video/croqueta-corte-wide.mp4?v=20260915j"></video>
+</div>
+
+<!-- ═══════════ 09 · RESERVA ═══════════ -->
+<section class="sec book book--light" id="reservas">
+  <div class="wrap book-grid">
+    <div>
+      <span class="eyebrow">Reservas</span>
+      <h2>
+        <span class="rl"><span>Ven a</span></span>
+        <span class="rl"><span><em>visitarnos</em></span></span>
+      </h2>
+      <p class="lede" style="margin:1.3rem 0 2.2rem">La casa es pequeña y se llena, sobre todo los fines de semana y cuando hay arroz de por medio.</p>
+
+      <div style="margin-bottom:2.2rem"><a href="reservar.html" class="btn btn--clay">Reservar por la web</a></div>
+
+      <p style="font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);margin-bottom:.8rem">O por teléfono</p>
+      <a href="tel:+34633417545" class="book-phone">633 41 75 45</a>
+      <p class="book-ask">Preguntad por Juan o por Álex. Para grupos de 6 o más, avisad con 24 horas.</p>
+
+      <ul class="hours">
+        <li><span class="d">Lunes</span><span class="t">13:00 – 16:30</span></li>
+        <li><span class="d">Martes</span><span class="t">13:00 – 16:30</span></li>
+        <li><span class="d">Miércoles</span><span class="t closed">Cerrado</span></li>
+        <li><span class="d">Jueves</span><span class="t">13:00 – 16:30</span></li>
+        <li><span class="d">Viernes</span><span class="t">13:00 – 16:30 &nbsp;·&nbsp; 20:00 – 23:30</span></li>
+        <li><span class="d">Sábado</span><span class="t">13:00 – 16:30 &nbsp;·&nbsp; 20:00 – 23:30</span></li>
+        <li><span class="d">Domingo</span><span class="t">13:00 – 16:30</span></li>
+      </ul>
+
+    </div>
+
+    <aside class="arrive arrive--guide reveal" aria-label="Cómo llegar">
+      <div class="guide-map">
+        <img src="assets/w/mapa-barrio.webp" width="640" height="480" alt="Mapa del barrio: La Rabiosa en la calle Emilia Pardo Bazán, con la estación de autobuses, los cines Mancha Centro, los aparcamientos y los institutos alrededor" loading="lazy">
+        <span class="gm-poi" style="left:70.1%;top:46.6%"><i></i><b>Autobuses</b><small>5 min a pie</small></span>
+        <span class="gm-poi" style="left:60.6%;top:51.3%"><i></i><b>Cines Mancha Centro</b><small>parking · 3 min</small></span>
+        <span class="gm-poi" style="left:54.8%;top:26.2%"><i></i><b>Hospital Mancha Centro</b><small>parking · 4 min</small></span>
+        <span class="gm-poi gm-poi--s" style="left:44.3%;top:60.9%"><i></i><b>Avda. de los Institutos</b></span>
+        <span class="gm-poi gm-poi--s" style="left:42.5%;top:71.2%"><i></i><b>IES Juan Bosco</b></span>
+        <span class="gm-poi gm-poi--s" style="left:27.2%;top:93.9%"><i></i><b>Parque Alces</b></span>
+        <span class="gm-edge" style="top:13.1%">Estación de tren · 1,8 km · 20 min a pie →</span>
+        <span class="gm-pin" style="left:38.1%;top:50.2%" aria-hidden="true"><svg viewBox="0 0 24 32" focusable="false"><path d="M12 0C5.4 0 0 5.3 0 11.9 0 20.7 12 32 12 32s12-11.3 12-20.1C24 5.3 18.6 0 12 0z" fill="#B4552C"/><circle cx="12" cy="12" r="4.4" fill="#F4EFE6"/></svg><span class="gm-label"><em>La</em>Rabiosa</span></span>
+        <a class="gm-credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>
+      </div>
+      <ul class="guide-how">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14M9 21l2-3h2l2 3M8 15h.01M16 15h.01"/></svg><div><b>En tren</b>La estación de Alcázar de San Juan está a 1,8 km: unos 20 minutos a pie, 5 en coche.</div></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 10h16M8 21v-3M16 21v-3M8 14h.01M16 14h.01"/></svg><div><b>En autobús</b>La estación de autobuses queda a 5 minutos andando.</div></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 13l2-5h12l2 5v5H4z"/><path d="M4 13h16M7 18v2M17 18v2M8 15h.01M16 15h.01"/></svg><div><b>En coche</b>Aparcamientos en superficie a 3–4 minutos, junto a los cines y al hospital Mancha Centro.</div></li>
+      </ul>
+      <div class="guide-foot">
+        <figure class="guide-door"><img src="assets/w/fachada-sm.webp" alt="La entrada de La Rabiosa: pared encalada con el rótulo" loading="lazy" width="600" height="324"><figcaption>La entrada</figcaption></figure>
+        <div class="guide-addr">
+          <b>Dónde estamos</b>
+          <a href="https://maps.google.com/?q=Calle+Emilia+Pardo+Baz%C3%A1n+2+Alc%C3%A1zar+de+San+Juan" target="_blank" rel="noopener">Calle Emilia Pardo Bazán, 2<br>13600 Alcázar de San Juan</a>
+          <div class="guide-btns">
+            <a class="btn btn--ink btn--sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=39.39271%2C-3.22247" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="btn btn--ink btn--sm" href="https://maps.apple.com/?ll=39.39271,-3.22247&amp;q=La%20Rabiosa" target="_blank" rel="noopener">Apple Maps</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer class="foot foot--light">
+  <div class="foot-field">
+    <div class="foot-field-in">
+      <span class="foot-big" aria-hidden="true"><svg class="brand-mark" viewBox="0 0 423.95 76.37" aria-hidden="true" focusable="false"><use href="#lr-logo"/></svg></span>
+      <div class="foot-side">
+        <p class="foot-tag">Cocina manchega de mercado con técnica contemporánea. Desde 2018. Alcázar de San Juan.</p>
+        <p class="foot-bottom">© <span id="year">2026</span> Restaurante La Rabiosa · Alcázar de San Juan, Castilla-La Mancha<br><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad y cookies</a></p>
+        <div class="foot-social">
+          <a class="foot-ico" href="https://www.instagram.com/larabiosarestaurante/" target="_blank" rel="noopener" aria-label="Instagram de La Rabiosa"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a class="foot-ico" href="https://www.facebook.com/LaRabiosaGastro/" target="_blank" rel="noopener" aria-label="Facebook de La Rabiosa"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<dialog class="llevar-dialog" id="llevarDialog" aria-label="Juan Delgado explica los arroces para llevar">
+  <button type="button" class="llevar-close" id="llevarCerrar" aria-label="Cerrar">×</button>
+  <video preload="none" playsinline controls poster="assets/img/poster-llevar.jpg?v=20260915g" data-src="assets/video/llevar-720.mp4?v=20260915f" data-src-hd="assets/video/llevar-1080.mp4?v=20260915f"></video>
+</dialog>
+<script src="assets/js/site.js?v=20260915o"></script>
+<script>
+/* Intro: pantalla en tinta, el logotipo grande aparece y después se acopla a su sitio en el hero.
+   El logo del hero se enciende bajo el que viaja poco antes de llegar, así el relevo es invisible y no hay salto. */
+(function(){
+  var root = document.documentElement, intro = document.getElementById('intro'), mark = document.getElementById('introMark');
+  var heroLogo = document.querySelector('.hero-logo'), heroVideo = document.querySelector('.hero video');
+  function arranca(){ if(heroVideo){ var pr = heroVideo.play(); if(pr && pr.catch) pr.catch(function(){}); } }
+  function fin(){ if(!intro) return; intro.remove(); intro = null; root.classList.remove('intro-on'); root.classList.remove('intro-reveal'); root.classList.remove('intro-logo'); arranca(); }
+  if(!root.classList.contains('intro-on') || !intro || !mark || !heroLogo || !mark.animate){ fin(); return; }
+  var guard = setTimeout(fin, 3200);
+  arranca();
+  /* el texto del hero se pinta ya (queda tapado por la intro): así el LCP no espera a la disolución */
+  root.classList.add('intro-reveal');
+
+  /* 1) el logotipo aparece grande y centrado sobre la tinta */
+  var entrada = mark.animate([{opacity:0, transform:'scale(.985)'},{opacity:1, transform:'scale(1)'}], {duration:620, easing:'cubic-bezier(.2,.7,.2,1)', fill:'forwards'});
+  entrada.onfinish = function(){
+    setTimeout(function(){
+      /* 2) se acopla a su sitio mientras la tinta se disuelve */
+      var a = mark.getBoundingClientRect(), b = heroLogo.getBoundingClientRect();
+      var s = b.width / a.width, dx = (b.left + b.width/2) - (a.left + a.width/2), dy = (b.top + b.height/2) - (a.top + a.height/2);
+      var viaje = mark.animate([{transform:'scale(1)'},{transform:'translate(' + dx + 'px,' + dy + 'px) scale(' + s + ')'}], {duration:860, easing:'cubic-bezier(.5,0,.2,1)', fill:'forwards'});
+      intro.animate([{backgroundColor:'rgba(0,0,0,1)'},{backgroundColor:'rgba(0,0,0,0)'}], {duration:760, delay:180, easing:'ease-in-out', fill:'forwards'});
+      /* el logo del hero se enciende debajo y el resto entra detrás */
+      setTimeout(function(){ root.classList.add('intro-logo'); }, 640);
+      viaje.onfinish = function(){ clearTimeout(guard); fin(); };
+    }, 340);
+  };
+})();
+</script>
+
+</body>
+</html>

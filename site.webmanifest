@@ -1,0 +1,11 @@
+{
+  "name": "La Rabiosa · Restaurante en Alcázar de San Juan",
+  "short_name": "La Rabiosa",
+  "icons": [
+    { "src": "assets/logo/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/logo/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#14100D",
+  "background_color": "#F4EFE6",
+  "display": "browser"
+}
